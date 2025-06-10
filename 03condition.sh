@@ -8,7 +8,7 @@ else
 	echo " Given number $NUMBER is not less than 10"
 	fi
 
-if [ NUMBER EQ 10 ]
+if [ NUMBER -eq 10 ]
 then
 	echo "Given number $NUMBER is equal to 10!"
 fi
