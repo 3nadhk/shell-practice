@@ -8,4 +8,10 @@ else
     echo "You are running with root access"
 fi
 dnf install mysql -y
+if [ $? -eq 0 ]
+then 
+    echo "Installing MYDQL is ... SUCCESS"
+else
+    echo "Installing MYSQL is ... FAILED"
+    exit 1
    
