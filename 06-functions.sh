@@ -45,7 +45,7 @@ else
     
 fi
 
-    dnf install python3 -y
+
 }
 
 dnf list nginx
