@@ -44,8 +44,6 @@ else
     
 fi
 
-
-
 dnf list  installed nginx
 
 if [ $? -ne 0 ]
