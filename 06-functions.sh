@@ -28,7 +28,7 @@ then
     VALIDATE $? "MYSQL"
 else
     echo "MY SQL is already installed ...Nothing to do"
-    exit 1
+    
 fi
     
 }
@@ -42,7 +42,7 @@ then
     VALIDATE $? "python3"
 else
     echo "python3 is already installed ...Nothing to do"
-    exit 1
+    
 fi
 
     dnf install python3 -y
@@ -57,7 +57,7 @@ then
     VALIDATE $? "nginx"
 else
     echo "nginx is already installed ...Nothing to do"
-    exit 1
+    
 fi
    
 }
