@@ -18,7 +18,7 @@ else
 fi   
     }
  
-dnf list install mysql
+dnf list mysql
 
 VALIDATE(){
 if [ $? -ne 0 ]
@@ -33,7 +33,7 @@ fi
     
 }
 
-dnf list install python3
+dnf list python3
 VALIDATE(){
 if [ $? -ne 0 ]
 then
@@ -48,7 +48,7 @@ fi
     dnf install python3 -y
 }
 
-dnf list install nginx
+dnf list nginx
 VALIDATE(){
 if [ $? -ne 0 ]
 then
