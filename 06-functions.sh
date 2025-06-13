@@ -33,7 +33,7 @@ fi
     
 }
 
-dnf list installed python3
+dnf list install python3
 VALIDATE(){
 if [ $? -ne 0 ]
 then
@@ -48,7 +48,7 @@ fi
     dnf install python3 -y
 }
 
-dnf list installed nginx
+dnf list install nginx
 VALIDATE(){
 if [ $? -ne 0 ]
 then
