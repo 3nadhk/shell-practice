@@ -6,7 +6,7 @@ then
     exit 1 #Give other than 0 up to 127
 else    
     echo "You are running with root access"
-    fi
+fi
     VALIDATE(){
 
         if [ $1 -eq 0 ]
